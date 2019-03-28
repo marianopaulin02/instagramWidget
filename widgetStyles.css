@@ -1,0 +1,220 @@
+.instaWidget{
+    text-align: center;
+    background:#fafafa;
+    overflow: hidden;
+    margin-bottom: 14px;
+}
+.instaWidgetCnt{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    max-width: 935px;
+    display: inline-block;
+    width: 100%;
+    width: calc(100% - 20px);
+    padding: 10px;
+    text-align: left;
+}
+h1.instaTitle{
+    font-weight: 300;
+    font-size: 28px;
+    color: #262626;
+    line-height: 40px;
+    margin: 0;
+    display: flex;
+}
+.instaTop{
+    padding: 10px 10px 0 10px;
+}
+.instaFollow,.instaFollowing,.instaMore{
+    background:#3897f0;
+    color:#FFF;
+    font-size:14px;
+    cursor: pointer;
+    padding:3px 9px 6px 5px;
+    text-align:center;
+    width:auto;
+    font-weight:600;
+    display:inline-block;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+.instaMore{
+    margin: 14px 0 10px 0;
+}
+.instaFollowing{
+    background: transparent;
+    border:1px solid #dbdbdb;
+    color:#262626
+}
+.instaThumb{
+    width:77px;
+    height:77px;
+    border-radius:100px;
+    -moz-border-radius:100px;
+    -webkit-border-radius:100px;
+    overflow: hidden;
+    display: inline-block;
+    border: 3px solid #FFF;
+}
+.instaThumb img {
+    width: 100%;
+    height: 100%;
+}
+.instaBasic{
+    margin: -92px 0 36px 98px;
+}
+.instaUser{
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.instaVerified,.instaHover i{
+    background-image:url(https://www.instagram.com/static/bundles/es6/sprite_core_f01fcb405c10.png/f01fcb405c10.png);
+}
+.instaVerified{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    background-position: 20px 121px;
+    margin-left: 4px;
+    bottom: -12px;
+    min-width: 18px;
+}
+.instaSub{
+    color: #000;
+    font-size:14px;
+}
+.instaName{
+    font-weight:600;
+}
+.instaDescrip{
+    font-weight:400;
+}
+a.instaLink{
+    color:#003569;
+    cursor:pointer;
+    font-weight:600;
+    line-height:20px;
+    text-decoration:none;
+}
+.instaMutual {
+    margin-top: 14px;
+    font-size: 12px;
+    color:#999;
+    font-weight: 500;
+}
+.instaMutual a{
+    color:#262626;
+    font-weight: 500;
+}
+a.instaMoreCount1{
+    text-decoration:none;
+    color: #999;
+}
+.instaStats{
+    border-top:1px solid #efefef;
+    border-bottom:1px solid #efefef;
+    display:flex;
+    padding: 12px 0;
+    margin:14px 0 14px 0;
+}
+a.instaData{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:100%;
+    font-size:14px;
+    text-decoration:none;
+
+}
+.instaNum{
+    color: #262626;
+    font-weight: 600;
+}
+.instaDt{
+    color: #999;
+}
+.instaRow{
+    display: flex;
+}
+.instaPic{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.instaItem{
+    position: relative;
+    height: 100%;
+}
+.instaHover{
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+}
+.instaItem:hover .instaHover{
+    display: flex;
+    background: rgba(0, 0, 0, 0.32);
+}
+.instaType{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    background-image: url(https://www.instagram.com/static/bundles/es6/sprite_mediatypes_65c15d7731ea.png/65c15d7731ea.png);
+}
+.instaType.GraphImage{
+    background-position: -40px -40px;
+}
+.instaType.GraphSidecar{
+    background-position: -6px -6px;
+}
+.instaType.GraphVideo{
+    background-position: -6px -40px;
+}
+.instaType.GraphTv{
+    background-position: -40px -5px;
+}
+.instaLike,.instaComment{
+    width: 20px;
+    height: 20px;
+    margin: 0 6px -3px 0;
+    display: inline-block;
+}
+.instaLike{
+    background-position: -225px 45px;
+}
+.instaComment{
+    background-position: -246px 45px;
+    margin-left: 10px;
+}
+.instaSeemore{
+    text-align: center;
+}
+@media only screen and (max-width: 735px) {/* mobile */
+    .instaItem.instaPadd {
+        margin-left: 2px;
+        margin-bottom: 2px;
+    }
+    .instaHover{
+        flex-direction: column;
+    }
+    .instaComment{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 736px) {/* desktop */
+    .instaItem.instaPadd {
+        margin-left: 28px;
+    }
+    .instaRow{
+        margin-bottom: 28px;
+    }
+}

@@ -1,0 +1,51 @@
+<div class="instaWidget">
+    <div class="instaWidgetCnt">
+        <div class="instaTop">
+            <div class="instaThumb">
+                <img src="{{instaThumb}}">
+            </div>
+            <div class="instaBasic">
+                <h1 class="instaTitle"><span class="instaUser">{{username}}</span><span class="instaVerified"></span></h1>
+                <a href="{{instaURL}}" target="_blank"><div class="instaFollow">{{followBt}}</div><div class="instaFollowing">{{followingBt}}</div></a>
+            </div>
+            <div class="instaSub">
+                <div class="instaName">{{fullname}}</div>
+                <div class="instaDescrip">{{description}}</div>
+                <a href="{{urlshimmed}}" class="instaLink">{{url}}</a>
+                <div class="instaMutual">
+                    <span class="instaMoreCount">{{followedBy}} </span>
+                    <span class="instaRelated"></span>
+                    <a href="{{instaURL}}/followers/mutualOnly" class="instaMoreCount1"> {{andMore}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="instaStats">
+            <a href="{{instaURL}}" class="instaData instaPostsUrl">
+                <span class="instaNum">{{postsCount}}</span>
+                <span class="instaDt">{{posts}}</span>
+            </a>
+            <a href="{{instaURL}}/followers/" class="instaData instaFollowersUrl">
+                <span class="instaNum">{{followersCount}}</span>
+                <span class="instaDt">{{followers}}</span>
+            </a>
+            <a href="{{instaURL}}/following/" class="instaData instaFollowingUrl">
+                <span class="instaNum">{{followingCount}}</span>
+                <span class="instaDt">{{following}}</span>
+            </a>
+        </div>
+        <div class="instaPosts">
+            <div class="instaRow">
+                <a class="instaPhoto" target="_blank">
+                    <div class="instaItem">
+                        <div class="instaType"></div>
+                        <img class="instaPic">
+                        <div class="instaHover"><span><i class="instaLike"></i><span class="instaLikesCount"></span></span><span><i class="instaComment"></i><span class="instaCommentsCount"></span></span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="instaSeemore">
+            <a href="{{instaURL}}" class="instaAccount"><div class="instaMore">{{seemore}}</div></a>
+        </div>
+    </div>
+</div>

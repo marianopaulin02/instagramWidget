@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Use a simple and free widget to embed an Instagram profile on your website or blog, mobile friendly.">
+        <meta name="keywords" content="Instagram,widget,free,embed,profile,account">
+        <meta name="author" content="Mariano Paulin">
+        <title>Simple Instagram Widget Demo</title>
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+        <script src="dist/instagramWidget.js"></script>
+        <style media="screen">
+            body{
+                font-family: 'Open Sans','Lato','Roboto',sans-serif;
+                color: #4c4c4c;
+            }
+            code,pre{
+                background: #f1f1f1;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Instagram Widget Demo</h1>
+        <p>This is a demo for <a href="https://github.com/marianopaulin02/instagramWidget" title="embed instagram profile widget">Instagram widget</a> that allows you to embed any Instagram profile on your website or blog</p>
+        <h2>Setup</h2>
+        <p>You just need to place the following HTML code wherever you want to place the widget on your site and replace <code>&#x3C;username&#x3E;</code> by the corresponding username that you want to load. The widget can be placed many times</p>
+        <pre>
+            <code>
+                &#x3C;script src=&#x22;instagramWidget.js&#x22;&#x3E;&#x3C;/script&#x3E;
+            </code>
+        </pre>
+        <pre>
+            <code>
+                &#x3C;div id=&#x22;instaWidget&#x22; data-username=&#x22;&#x3C;username&#x3E;&#x22;&#x3E;
+                    &#x3C;a href=&#x22;https://instagram.com/&#x3C;username&#x3E;/&#x22;&#x3E;Profile on Instagram&#x3C;/a&#x3E;
+                &#x3C;/div&#x3E;
+            </code>
+        </pre>
+        <h2>Demo</h2>
+        <div id="instaWidget" data-username="leomessi"><a href="https://instagram.com/leomessi/">Leo Messi profile on Instagram</a></div>
+        <div id="instaWidget" data-username="10aguerosergiokun"><a href="https://instagram.com/10aguerosergiokun/">Sergio Agüero profile on Instagram</a></div>
+        <h2>A BOT for Instagram?</h2>
+        <p>Yes, imagine a bot for Instagram that let you get clickable links of the text links placed below some posts on Instagram (and more cool things such as download storys or view full size profile pictures), well discover everything that <a href="https://gimmethat.link">Gimme</a> can help you.</p>
+        <h2>Author</h2>
+        <p>This widget was developed by <a href="https://github.com/marianopaulin02/">Mariano Paulin</a>. Feel free use it under MIT license and contribute to the <a href="https://github.com/marianopaulin02/instagramWidget"> GitHub repo</a></p>
+        </body>
+</html>
