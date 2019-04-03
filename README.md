@@ -11,9 +11,9 @@ You just need to place the following HTML code wherever you want to place the wi
 </div>
 ```
 ## Demo ##
-[Live Demo](https://tintadecodigo.blogspot.com/2019/03/embed-instagram-profile-on-website.html)<br><br>
+[Live Demo](https://marianopaulin02.github.io/instagramWidget/index.html)<br><br>
 ![embed Instagram Widget](images/embed-Instagram-Widget.png)
 ## A BOT for Instagram? ##
 [related content] Yes, imagine a bot for Instagram that let you get clickable links of the text links placed below some posts on Instagram (and more cool things such as download storys or view full size profile pictures), well discover everything that [Gimme](https://gimmethat.link) can help you.
 ## Author ##
-This widget was developed by [Mariano Paulin](https://github.com/marianopaulin02/)</a>. Feel free use it under MIT license and contribute to the [GitHub repo](https://github.com/marianopaulin02/instagramWidget)
+This widget was developed by [Mariano Paulin](https://marianopaulin.com)</a>. Feel free use it under MIT license and contribute to the [GitHub repo](https://github.com/marianopaulin02/instagramWidget)
